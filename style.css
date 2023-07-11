@@ -1,0 +1,65 @@
+/* imported font */
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* body related style */
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+/* common style  */
+
+.primaryColor {
+  background-color: rgb(252, 238, 241);
+}
+
+.primaryBtn {
+  padding: 10px 15px;
+  background-color: rgb(229, 84, 115);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.container {
+  max-width: 1000px;
+}
+
+/* topBanner related style */
+
+.topBanner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 100px 0px 100px;
+}
+
+.topBannerDesc {
+  width: 500px;
+}
+
+.topBannerDesc h2 {
+  width: 460px;
+  font-size: 60px;
+  font-weight: 800;
+  color: #272727;
+  line-height: 70px;
+}
+.topBannerDesc p {
+  width: 400px;
+  font-size: 14px;
+  color: rgba(39, 39, 39, 0.6);
+  padding: 20px 0px;
+}
+
+.topBannerImg {
+  width: 450px;
+}
