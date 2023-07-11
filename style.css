@@ -30,9 +30,28 @@ body {
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 1090px;
+  margin: auto;
 }
 
+.sectionHeader {
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+
+.sectionHeader h2 {
+  font-size: 40px;
+  color: #272727;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.sectionHeader p {
+  width: 400px;
+  color: rgba(39, 39, 39, 0.6);
+  margin: auto;
+}
 /* topBanner related style */
 
 .topBanner {
@@ -62,4 +81,39 @@ body {
 
 .topBannerImg {
   width: 450px;
+}
+
+/* ourFeature section style  */
+
+.featureItems {
+  display: flex;
+  justify-content: space-between;
+}
+
+.featureItems :first-child {
+  background-color: rgb(242, 222, 231);
+}
+
+.featureItems :nth-child(2) {
+  background-color: rgb(217, 239, 241);
+}
+.featureItems :last-child {
+  background-color: rgb(227, 235, 219);
+}
+
+.featureImg {
+  padding: 110px 78px 0px 76px;
+  border-radius: 380px 380px 0px 0px;
+  width: 200px;
+}
+
+.featureImgLink {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.featureImgLink a {
+  color: black;
 }
