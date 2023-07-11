@@ -190,6 +190,26 @@ body {
   border-radius: 5px;
 }
 
+/* bestSell section related style  */
+
+.bestSellingContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bestSellingItems {
+  width: 350px;
+}
+.bestSellingItems img {
+  width: 100%;
+}
+
+.middleColumnItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 /* latestDeal section related style  */
 
 .latestDealContainer {
