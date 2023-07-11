@@ -27,6 +27,7 @@ body {
   border-radius: 5px;
   color: #ffffff;
   font-size: 12px;
+  cursor: pointer;
 }
 
 .container {
@@ -132,4 +133,37 @@ body {
 }
 .services img {
   margin-bottom: 10px;
+}
+
+/* hotDeal section related style  */
+
+.hotDealContent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 80px;
+}
+.hotDealDesc {
+  width: 500px;
+  text-align: center;
+}
+.hotDealDesc h2 {
+  font-size: 30px;
+  font-weight: 800;
+  color: #272727;
+}
+
+.hotDealDesc h2 span {
+  color: rgb(229, 84, 115);
+}
+
+.hotDealDesc p {
+  font-size: 14px;
+  color: rgba(39, 39, 39, 0.6);
+  padding: 20px 0px;
+  width: 400px;
+  margin: auto;
+}
+.hotDealImg {
+  width: 320px;
 }
