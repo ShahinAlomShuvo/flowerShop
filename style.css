@@ -117,3 +117,19 @@ body {
 .featureImgLink a {
   color: black;
 }
+
+/* ourService Section Related style  */
+
+.serviceContainer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(244, 244, 244);
+  padding: 50px 100px;
+  margin: 90px 0px;
+}
+.services {
+  text-align: center;
+}
+.services img {
+  margin-bottom: 10px;
+}
