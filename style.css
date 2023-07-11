@@ -131,6 +131,12 @@ body {
 .services {
   text-align: center;
 }
+
+.services p {
+  color: rgba(39, 39, 39, 0.8);
+  font-weight: 600;
+}
+
 .services img {
   margin-bottom: 10px;
 }
