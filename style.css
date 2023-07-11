@@ -91,14 +91,14 @@ body {
   justify-content: space-between;
 }
 
-.featureItems :first-child {
+.featureItemOne {
   background-color: rgb(242, 222, 231);
 }
 
-.featureItems :nth-child(2) {
+.featureItemTwo {
   background-color: rgb(217, 239, 241);
 }
-.featureItems :last-child {
+.featureItemThree {
   background-color: rgb(227, 235, 219);
 }
 
